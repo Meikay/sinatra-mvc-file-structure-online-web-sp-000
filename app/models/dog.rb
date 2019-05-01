@@ -1,15 +1,15 @@
 class Dog
   attr_accessor :name, :breed, :age
 
-  Dogs = []
+  dogs = []
   def initialize
     @name = name
     @breed = breed
     @age = age
-    Dogs << self
+    dogs << self
   end
 
   def self.all
-    Dogs
+    dogs
   end
 end
